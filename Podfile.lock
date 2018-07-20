@@ -1,0 +1,60 @@
+PODS:
+  - Alamofire (4.6.0)
+  - FlexLayout (1.3.8)
+  - Moya (10.0.1):
+    - Moya/Core (= 10.0.1)
+  - Moya-Decodable/Core (0.1.0):
+    - Moya
+  - Moya-Decodable/RxSwift (0.1.0):
+    - Moya
+    - Moya-Decodable/Core
+    - RxSwift (>= 4.0.0-beta.0)
+  - Moya/Core (10.0.1):
+    - Alamofire (~> 4.1)
+    - Result (~> 3.0)
+  - Moya/RxSwift (10.0.1):
+    - Moya/Core
+    - RxSwift (~> 4.0)
+  - PinLayout (1.7.5)
+  - Result (3.2.4)
+  - RxCocoa (4.1.1):
+    - RxSwift (~> 4.0)
+  - RxFlow (1.0.4):
+    - RxCocoa (>= 4.0.0)
+    - RxSwift (>= 4.0.0)
+  - RxSwift (4.1.1)
+
+DEPENDENCIES:
+  - FlexLayout (= 1.3.8)
+  - Moya
+  - Moya-Decodable/RxSwift
+  - Moya/RxSwift
+  - PinLayout (= 1.7.5)
+  - RxFlow
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - FlexLayout
+    - Moya
+    - Moya-Decodable
+    - PinLayout
+    - Result
+    - RxCocoa
+    - RxFlow
+    - RxSwift
+
+SPEC CHECKSUMS:
+  Alamofire: f41a599bd63041760b26d393ec1069d9d7b917f4
+  FlexLayout: e129ad320add3a672b1a3dabc1584ea7cd90ae42
+  Moya: 9e621707ff754eeb51ff3ec51a3d54e517c0733a
+  Moya-Decodable: a26c02fb948ec8818a5340d665ae4180cfe0f3d3
+  PinLayout: d89b8e7107f872c039f15132094bc417aa83271d
+  Result: d2d07204ce72856f1fd9130bbe42c35a7b0fea10
+  RxCocoa: fd0862fd2df95fa55562ad28ffd2522c25eb4a85
+  RxFlow: fb28739db95d7123c410f4c71afa49af027353f0
+  RxSwift: c6e3b1c7b325c7d121cd4327e9d98b7ed746b570
+
+PODFILE CHECKSUM: e34688443056306a9cd6c09f2405b08d7aac4322
+
+COCOAPODS: 1.5.3
